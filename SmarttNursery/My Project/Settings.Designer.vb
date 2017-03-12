@@ -53,6 +53,17 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=homestead;password=secret;port=33060;persistsecurityinfo"& _ 
+            "=True;database=smartt_nursery")>  _
+        Public ReadOnly Property smartt_nurseryConnectionString() As String
+            Get
+                Return CType(Me("smartt_nurseryConnectionString"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 
