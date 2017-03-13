@@ -23,15 +23,15 @@ Partial Class frmReciept
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim MetroSplitButtonRenderer2 As Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer = New Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer()
-        Dim MetroSplitButtonRenderer1 As Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer = New Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmReciept))
+        Dim MetroSplitButtonRenderer5 As Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer = New Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer()
+        Dim MetroSplitButtonRenderer6 As Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer = New Syncfusion.Windows.Forms.Tools.MetroSplitButtonRenderer()
         Me.cbCompany = New Syncfusion.Windows.Forms.Tools.ComboBoxAutoComplete()
         Me.txtAddress1 = New Syncfusion.Windows.Forms.Tools.TextBoxExt()
         Me.txtAddress2 = New Syncfusion.Windows.Forms.Tools.TextBoxExt()
@@ -62,9 +62,9 @@ Partial Class frmReciept
         Me.txtCountry = New Syncfusion.Windows.Forms.Tools.TextBoxExt()
         Me.btnAddCompany = New Syncfusion.Windows.Forms.ButtonAdv()
         Me.pnlMenu = New Syncfusion.Windows.Forms.Tools.GradientPanel()
-        Me.sbtnNotes = New Syncfusion.Windows.Forms.Tools.SplitButton()
-        Me.SplitButton1 = New Syncfusion.Windows.Forms.Tools.SplitButton()
         Me.btnSave = New Syncfusion.Windows.Forms.ButtonAdv()
+        Me.SplitButton1 = New Syncfusion.Windows.Forms.Tools.SplitButton()
+        Me.sbtnNotes = New Syncfusion.Windows.Forms.Tools.SplitButton()
         CType(Me.cbCompany.AutoCompleteControl, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtAddress1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtAddress2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -112,7 +112,7 @@ Partial Class frmReciept
         'txtAddress1
         '
         Me.txtAddress1.BackColor = System.Drawing.Color.White
-        Me.txtAddress1.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtAddress1.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtAddress1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAddress1.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtAddress1.Location = New System.Drawing.Point(11, 70)
@@ -126,7 +126,7 @@ Partial Class frmReciept
         'txtAddress2
         '
         Me.txtAddress2.BackColor = System.Drawing.Color.White
-        Me.txtAddress2.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtAddress2.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtAddress2.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAddress2.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtAddress2.Location = New System.Drawing.Point(11, 102)
@@ -140,7 +140,7 @@ Partial Class frmReciept
         'txtCity
         '
         Me.txtCity.BackColor = System.Drawing.Color.White
-        Me.txtCity.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtCity.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtCity.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCity.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtCity.Location = New System.Drawing.Point(11, 135)
@@ -154,7 +154,7 @@ Partial Class frmReciept
         'txtState
         '
         Me.txtState.BackColor = System.Drawing.Color.White
-        Me.txtState.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtState.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtState.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtState.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtState.Location = New System.Drawing.Point(95, 135)
@@ -168,7 +168,7 @@ Partial Class frmReciept
         'txtZip
         '
         Me.txtZip.BackColor = System.Drawing.Color.White
-        Me.txtZip.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtZip.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtZip.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtZip.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtZip.Location = New System.Drawing.Point(140, 135)
@@ -193,26 +193,26 @@ Partial Class frmReciept
         Me.grdItems.CausesValidation = False
         Me.grdItems.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.grdItems.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.Padding = New System.Windows.Forms.Padding(0, 0, 7, 0)
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.grdItems.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.ActiveCaption
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle13.Padding = New System.Windows.Forms.Padding(0, 0, 7, 0)
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.grdItems.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle13
         Me.grdItems.ColumnHeadersHeight = 25
         Me.grdItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.grdItems.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Item, Me.Quantity, Me.Rate, Me.Amount})
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Gray
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Info
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.grdItems.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Gray
+        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Info
+        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.grdItems.DefaultCellStyle = DataGridViewCellStyle18
         Me.grdItems.Location = New System.Drawing.Point(11, 185)
         Me.grdItems.Margin = New System.Windows.Forms.Padding(0)
         Me.grdItems.MultiSelect = False
@@ -223,26 +223,26 @@ Partial Class frmReciept
         Me.grdItems.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.grdItems.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.grdItems.ShowEditingIcon = False
-        Me.grdItems.Size = New System.Drawing.Size(859, 227)
+        Me.grdItems.Size = New System.Drawing.Size(859, 226)
         Me.grdItems.TabIndex = 24
         '
         'Item
         '
         Me.Item.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.NullValue = Nothing
-        Me.Item.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle14.NullValue = Nothing
+        Me.Item.DefaultCellStyle = DataGridViewCellStyle14
         Me.Item.HeaderText = "Item"
         Me.Item.Name = "Item"
         Me.Item.ReadOnly = True
         '
         'Quantity
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.Format = "N2"
-        DataGridViewCellStyle3.NullValue = "0"
-        DataGridViewCellStyle3.Padding = New System.Windows.Forms.Padding(0, 0, 5, 0)
-        Me.Quantity.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle15.Format = "N2"
+        DataGridViewCellStyle15.NullValue = "0"
+        DataGridViewCellStyle15.Padding = New System.Windows.Forms.Padding(0, 0, 5, 0)
+        Me.Quantity.DefaultCellStyle = DataGridViewCellStyle15
         Me.Quantity.HeaderText = "Quantity"
         Me.Quantity.Name = "Quantity"
         Me.Quantity.ReadOnly = True
@@ -250,11 +250,11 @@ Partial Class frmReciept
         '
         'Rate
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Format = "C2"
-        DataGridViewCellStyle4.NullValue = "0"
-        DataGridViewCellStyle4.Padding = New System.Windows.Forms.Padding(0, 0, 5, 0)
-        Me.Rate.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle16.Format = "C2"
+        DataGridViewCellStyle16.NullValue = "0"
+        DataGridViewCellStyle16.Padding = New System.Windows.Forms.Padding(0, 0, 5, 0)
+        Me.Rate.DefaultCellStyle = DataGridViewCellStyle16
         Me.Rate.HeaderText = "Cost"
         Me.Rate.Name = "Rate"
         Me.Rate.ReadOnly = True
@@ -262,11 +262,11 @@ Partial Class frmReciept
         '
         'Amount
         '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Format = "C2"
-        DataGridViewCellStyle5.NullValue = "0"
-        DataGridViewCellStyle5.Padding = New System.Windows.Forms.Padding(0, 0, 5, 0)
-        Me.Amount.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle17.Format = "C2"
+        DataGridViewCellStyle17.NullValue = "0"
+        DataGridViewCellStyle17.Padding = New System.Windows.Forms.Padding(0, 0, 5, 0)
+        Me.Amount.DefaultCellStyle = DataGridViewCellStyle17
         Me.Amount.HeaderText = "Amount"
         Me.Amount.Name = "Amount"
         Me.Amount.ReadOnly = True
@@ -338,7 +338,7 @@ Partial Class frmReciept
         Me.txtInvoiceNo.AllowDrop = True
         Me.txtInvoiceNo.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtInvoiceNo.BackColor = System.Drawing.Color.White
-        Me.txtInvoiceNo.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtInvoiceNo.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtInvoiceNo.Border3DStyle = System.Windows.Forms.Border3DStyle.Flat
         Me.txtInvoiceNo.BorderColor = System.Drawing.Color.FromArgb(CType(CType(209, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.txtInvoiceNo.Cursor = System.Windows.Forms.Cursors.IBeam
@@ -459,11 +459,11 @@ Partial Class frmReciept
         '
         Me.txtShipping.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtShipping.BackColor = System.Drawing.Color.White
-        Me.txtShipping.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtShipping.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtShipping.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtShipping.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtShipping.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.txtShipping.Location = New System.Drawing.Point(692, 448)
+        Me.txtShipping.Location = New System.Drawing.Point(692, 447)
         Me.txtShipping.Metrocolor = System.Drawing.Color.Empty
         Me.txtShipping.Name = "txtShipping"
         Me.txtShipping.ReadOnly = True
@@ -478,11 +478,11 @@ Partial Class frmReciept
         '
         Me.txtHandling.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtHandling.BackColor = System.Drawing.Color.White
-        Me.txtHandling.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtHandling.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtHandling.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtHandling.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtHandling.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.txtHandling.Location = New System.Drawing.Point(692, 481)
+        Me.txtHandling.Location = New System.Drawing.Point(692, 480)
         Me.txtHandling.Metrocolor = System.Drawing.Color.Empty
         Me.txtHandling.Name = "txtHandling"
         Me.txtHandling.ReadOnly = True
@@ -497,11 +497,11 @@ Partial Class frmReciept
         '
         Me.txtTax.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTax.BackColor = System.Drawing.Color.White
-        Me.txtTax.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtTax.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtTax.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtTax.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTax.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.txtTax.Location = New System.Drawing.Point(692, 415)
+        Me.txtTax.Location = New System.Drawing.Point(692, 414)
         Me.txtTax.Metrocolor = System.Drawing.Color.Empty
         Me.txtTax.Name = "txtTax"
         Me.txtTax.ReadOnly = True
@@ -516,11 +516,11 @@ Partial Class frmReciept
         '
         Me.txtTotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTotal.BackColor = System.Drawing.Color.White
-        Me.txtTotal.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtTotal.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtTotal.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtTotal.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTotal.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.txtTotal.Location = New System.Drawing.Point(692, 514)
+        Me.txtTotal.Location = New System.Drawing.Point(692, 513)
         Me.txtTotal.Metrocolor = System.Drawing.Color.Empty
         Me.txtTotal.Name = "txtTotal"
         Me.txtTotal.ReadOnly = True
@@ -541,7 +541,7 @@ Partial Class frmReciept
         Me.btnDeleteItem.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDeleteItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnDeleteItem.IsBackStageButton = False
-        Me.btnDeleteItem.Location = New System.Drawing.Point(140, 496)
+        Me.btnDeleteItem.Location = New System.Drawing.Point(140, 495)
         Me.btnDeleteItem.Name = "btnDeleteItem"
         Me.btnDeleteItem.Size = New System.Drawing.Size(122, 45)
         Me.btnDeleteItem.TabIndex = 35
@@ -557,7 +557,7 @@ Partial Class frmReciept
         Me.btnAddItem.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnAddItem.IsBackStageButton = False
-        Me.btnAddItem.Location = New System.Drawing.Point(12, 496)
+        Me.btnAddItem.Location = New System.Drawing.Point(12, 495)
         Me.btnAddItem.Name = "btnAddItem"
         Me.btnAddItem.Size = New System.Drawing.Size(122, 45)
         Me.btnAddItem.TabIndex = 34
@@ -566,7 +566,7 @@ Partial Class frmReciept
         'txtCountry
         '
         Me.txtCountry.BackColor = System.Drawing.Color.White
-        Me.txtCountry.BeforeTouchSize = New System.Drawing.Size(115, 13)
+        Me.txtCountry.BeforeTouchSize = New System.Drawing.Size(312, 27)
         Me.txtCountry.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCountry.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtCountry.Location = New System.Drawing.Point(212, 135)
@@ -604,46 +604,6 @@ Partial Class frmReciept
         Me.pnlMenu.Size = New System.Drawing.Size(879, 28)
         Me.pnlMenu.TabIndex = 37
         '
-        'sbtnNotes
-        '
-        Me.sbtnNotes.BackColor = System.Drawing.Color.DimGray
-        Me.sbtnNotes.BeforeTouchSize = New System.Drawing.Size(75, 23)
-        Me.sbtnNotes.DropDownIconColor = System.Drawing.Color.White
-        Me.sbtnNotes.DropDownPosition = Syncfusion.Windows.Forms.Tools.Position.Bottom
-        Me.sbtnNotes.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sbtnNotes.ForeColor = System.Drawing.Color.White
-        Me.sbtnNotes.Location = New System.Drawing.Point(37, 3)
-        Me.sbtnNotes.MinimumSize = New System.Drawing.Size(75, 23)
-        Me.sbtnNotes.Name = "sbtnNotes"
-        MetroSplitButtonRenderer2.SplitButton = Nothing
-        Me.sbtnNotes.Renderer = MetroSplitButtonRenderer2
-        Me.sbtnNotes.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.sbtnNotes.ShowDropDownOnButtonClick = False
-        Me.sbtnNotes.Size = New System.Drawing.Size(75, 23)
-        Me.sbtnNotes.Style = Syncfusion.Windows.Forms.Tools.SplitButtonVisualStyle.Metro
-        Me.sbtnNotes.TabIndex = 1
-        Me.sbtnNotes.Text = "Notes"
-        '
-        'SplitButton1
-        '
-        Me.SplitButton1.BackColor = System.Drawing.Color.DimGray
-        Me.SplitButton1.BeforeTouchSize = New System.Drawing.Size(88, 23)
-        Me.SplitButton1.DropDownIconColor = System.Drawing.Color.White
-        Me.SplitButton1.DropDownPosition = Syncfusion.Windows.Forms.Tools.Position.Bottom
-        Me.SplitButton1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SplitButton1.ForeColor = System.Drawing.Color.White
-        Me.SplitButton1.Location = New System.Drawing.Point(118, 3)
-        Me.SplitButton1.MinimumSize = New System.Drawing.Size(75, 23)
-        Me.SplitButton1.Name = "SplitButton1"
-        MetroSplitButtonRenderer1.SplitButton = Nothing
-        Me.SplitButton1.Renderer = MetroSplitButtonRenderer1
-        Me.SplitButton1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.SplitButton1.ShowDropDownOnButtonClick = False
-        Me.SplitButton1.Size = New System.Drawing.Size(88, 23)
-        Me.SplitButton1.Style = Syncfusion.Windows.Forms.Tools.SplitButtonVisualStyle.Metro
-        Me.SplitButton1.TabIndex = 1
-        Me.SplitButton1.Text = "Attachments"
-        '
         'btnSave
         '
         Me.btnSave.Appearance = Syncfusion.Windows.Forms.ButtonAppearance.Metro
@@ -659,12 +619,53 @@ Partial Class frmReciept
         Me.btnSave.Size = New System.Drawing.Size(22, 26)
         Me.btnSave.TabIndex = 2
         '
+        'SplitButton1
+        '
+        Me.SplitButton1.BackColor = System.Drawing.Color.DimGray
+        Me.SplitButton1.BeforeTouchSize = New System.Drawing.Size(88, 23)
+        Me.SplitButton1.DropDownIconColor = System.Drawing.Color.White
+        Me.SplitButton1.DropDownPosition = Syncfusion.Windows.Forms.Tools.Position.Bottom
+        Me.SplitButton1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SplitButton1.ForeColor = System.Drawing.Color.White
+        Me.SplitButton1.Location = New System.Drawing.Point(118, 3)
+        Me.SplitButton1.MinimumSize = New System.Drawing.Size(75, 23)
+        Me.SplitButton1.Name = "SplitButton1"
+        MetroSplitButtonRenderer5.SplitButton = Nothing
+        Me.SplitButton1.Renderer = MetroSplitButtonRenderer5
+        Me.SplitButton1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.SplitButton1.ShowDropDownOnButtonClick = False
+        Me.SplitButton1.Size = New System.Drawing.Size(88, 23)
+        Me.SplitButton1.Style = Syncfusion.Windows.Forms.Tools.SplitButtonVisualStyle.Metro
+        Me.SplitButton1.TabIndex = 1
+        Me.SplitButton1.Text = "Attachments"
+        '
+        'sbtnNotes
+        '
+        Me.sbtnNotes.BackColor = System.Drawing.Color.DimGray
+        Me.sbtnNotes.BeforeTouchSize = New System.Drawing.Size(75, 23)
+        Me.sbtnNotes.DropDownIconColor = System.Drawing.Color.White
+        Me.sbtnNotes.DropDownPosition = Syncfusion.Windows.Forms.Tools.Position.Bottom
+        Me.sbtnNotes.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sbtnNotes.ForeColor = System.Drawing.Color.White
+        Me.sbtnNotes.Location = New System.Drawing.Point(37, 3)
+        Me.sbtnNotes.MinimumSize = New System.Drawing.Size(75, 23)
+        Me.sbtnNotes.Name = "sbtnNotes"
+        MetroSplitButtonRenderer6.SplitButton = Nothing
+        Me.sbtnNotes.Renderer = MetroSplitButtonRenderer6
+        Me.sbtnNotes.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.sbtnNotes.ShowDropDownOnButtonClick = False
+        Me.sbtnNotes.Size = New System.Drawing.Size(75, 23)
+        Me.sbtnNotes.Style = Syncfusion.Windows.Forms.Tools.SplitButtonVisualStyle.Metro
+        Me.sbtnNotes.TabIndex = 1
+        Me.sbtnNotes.Text = "Notes"
+        '
         'frmReciept
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(879, 553)
+        Me.CaptionFont = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClientSize = New System.Drawing.Size(879, 552)
         Me.Controls.Add(Me.pnlMenu)
         Me.Controls.Add(Me.btnAddCompany)
         Me.Controls.Add(Me.btnDeleteItem)

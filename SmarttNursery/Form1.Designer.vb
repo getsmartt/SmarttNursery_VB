@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,10 +20,10 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim HeaderCollection1 As Syncfusion.Windows.Forms.Tools.TreeNavigator.HeaderCollection = New Syncfusion.Windows.Forms.Tools.TreeNavigator.HeaderCollection()
+        Dim HeaderCollection2 As Syncfusion.Windows.Forms.Tools.TreeNavigator.HeaderCollection = New Syncfusion.Windows.Forms.Tools.TreeNavigator.HeaderCollection()
         Me.Smartt_nurseryDataSet = New SmarttNursery.smartt_nurseryDataSet()
         Me.PlantmasterBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Plant_masterTableAdapter = New SmarttNursery.smartt_nurseryDataSetTableAdapters.plant_masterTableAdapter()
@@ -67,10 +67,10 @@ Partial Class Form1
         '
         Me.TreeNavigator1.BackColor = System.Drawing.Color.White
         Me.TreeNavigator1.Dock = System.Windows.Forms.DockStyle.Left
-        HeaderCollection1.Font = New System.Drawing.Font("Arial", 8.0!)
-        HeaderCollection1.HeaderText = "Plants"
-        HeaderCollection1.Height = 40
-        Me.TreeNavigator1.Header = HeaderCollection1
+        HeaderCollection2.Font = New System.Drawing.Font("Arial", 8.0!)
+        HeaderCollection2.HeaderText = "Plants"
+        HeaderCollection2.Height = 40
+        Me.TreeNavigator1.Header = HeaderCollection2
         Me.TreeNavigator1.ItemBackColor = System.Drawing.SystemColors.Control
         Me.TreeNavigator1.Items.Add(Me.TreeMenuItem1)
         Me.TreeNavigator1.Items.Add(Me.TreeMenuItem2)
@@ -80,7 +80,7 @@ Partial Class Form1
         Me.TreeNavigator1.MinimumSize = New System.Drawing.Size(150, 150)
         Me.TreeNavigator1.Name = "TreeNavigator1"
         Me.TreeNavigator1.NavigationMode = Syncfusion.Windows.Forms.Tools.NavigationMode.[Default]
-        Me.TreeNavigator1.Size = New System.Drawing.Size(219, 589)
+        Me.TreeNavigator1.Size = New System.Drawing.Size(220, 589)
         Me.TreeNavigator1.TabIndex = 0
         Me.TreeNavigator1.Text = "TreeNavigator1"
         '
@@ -97,7 +97,7 @@ Partial Class Form1
         Me.TreeMenuItem1.Name = "TreeMenuItem1"
         Me.TreeMenuItem1.SelectedColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(193, Byte), Integer), CType(CType(220, Byte), Integer))
         Me.TreeMenuItem1.SelectedItemForeColor = System.Drawing.Color.Black
-        Me.TreeMenuItem1.Size = New System.Drawing.Size(217, 40)
+        Me.TreeMenuItem1.Size = New System.Drawing.Size(218, 40)
         Me.TreeMenuItem1.TabIndex = 0
         Me.TreeMenuItem1.Text = "TreeMenuItem1"
         '
@@ -110,7 +110,7 @@ Partial Class Form1
         Me.TreeMenuItem2.Name = "TreeMenuItem2"
         Me.TreeMenuItem2.SelectedColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(193, Byte), Integer), CType(CType(220, Byte), Integer))
         Me.TreeMenuItem2.SelectedItemForeColor = System.Drawing.Color.Black
-        Me.TreeMenuItem2.Size = New System.Drawing.Size(217, 40)
+        Me.TreeMenuItem2.Size = New System.Drawing.Size(218, 40)
         Me.TreeMenuItem2.TabIndex = 0
         Me.TreeMenuItem2.Text = "TreeMenuItem2"
         '
@@ -123,7 +123,7 @@ Partial Class Form1
         Me.TreeMenuItem3.Name = "TreeMenuItem3"
         Me.TreeMenuItem3.SelectedColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(193, Byte), Integer), CType(CType(220, Byte), Integer))
         Me.TreeMenuItem3.SelectedItemForeColor = System.Drawing.Color.Black
-        Me.TreeMenuItem3.Size = New System.Drawing.Size(217, 40)
+        Me.TreeMenuItem3.Size = New System.Drawing.Size(218, 40)
         Me.TreeMenuItem3.TabIndex = 0
         Me.TreeMenuItem3.Text = "TreeMenuItem3"
         '
@@ -136,7 +136,7 @@ Partial Class Form1
         Me.TreeMenuItem4.Name = "TreeMenuItem4"
         Me.TreeMenuItem4.SelectedColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(193, Byte), Integer), CType(CType(220, Byte), Integer))
         Me.TreeMenuItem4.SelectedItemForeColor = System.Drawing.Color.Black
-        Me.TreeMenuItem4.Size = New System.Drawing.Size(217, 40)
+        Me.TreeMenuItem4.Size = New System.Drawing.Size(218, 40)
         Me.TreeMenuItem4.TabIndex = 0
         Me.TreeMenuItem4.Text = "TreeMenuItem4"
         '
@@ -154,7 +154,7 @@ Partial Class Form1
         Me.TreeMenuItem5.SelectedItemForeColor = System.Drawing.Color.Black
         Me.TreeMenuItem5.Size = New System.Drawing.Size(0, 0)
         Me.TreeMenuItem5.TabIndex = 0
-        Me.TreeMenuItem5.Text = "TreeMenuItem5"
+        Me.TreeMenuItem5.Text = "How much text can we put here and will it wrap? "
         '
         'TreeMenuItem6
         '
