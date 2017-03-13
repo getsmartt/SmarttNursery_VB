@@ -27,4 +27,10 @@ Public Class frmReciept
     Private Sub btnAddItem_Click(sender As Object, e As EventArgs) Handles btnAddItem.Click
         frmAddItem.Show()
     End Sub
+
+    Private Sub sbtnNotes_Click(sender As Object, e As EventArgs) Handles sbtnNotes.Click
+        Dim frmNotes As Form
+        frmNotes = New frmNote
+        frmNotes.Show()
+    End Sub
 End Class
