@@ -22,11 +22,9 @@ Public Class frmReciept
 
     Private Sub btnAddCompany_Click(sender As Object, e As EventArgs) Handles btnAddCompany.Click
         frmCustomer.Show()
-
     End Sub
 
     Private Sub btnAddItem_Click(sender As Object, e As EventArgs) Handles btnAddItem.Click
         frmAddItem.Show()
-
     End Sub
 End Class
