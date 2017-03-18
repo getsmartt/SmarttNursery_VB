@@ -14,6 +14,21 @@
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +61,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -95,6 +113,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="ctlMyMenu.Designer.vb">
       <DependentUpon>ctlMyMenu.vb</DependentUpon>
     </Compile>
@@ -108,10 +127,22 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAddItem.Designer.vb">
       <DependentUpon>frmAddItem.vb</DependentUpon>
     </Compile>
     <Compile Include="frmAddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopy.Designer.vb">
+      <DependentUpon>frmCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCopy.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCustomer.Designer.vb">
@@ -120,10 +151,22 @@
     <Compile Include="frmCustomer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDocument.Designer.vb">
+      <DependentUpon>frmDocument.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocument.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmNote.Designer.vb">
       <DependentUpon>frmNote.vb</DependentUpon>
     </Compile>
     <Compile Include="frmNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlantings.Designer.vb">
+      <DependentUpon>frmPlantings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlantings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -147,10 +190,17 @@
     <Compile Include="frmReceipt.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Settings.vb" />
     <Compile Include="smartt_nurseryDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>smartt_nurseryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="test.Designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="test.vb">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -160,14 +210,26 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddItem.resx">
       <DependentUpon>frmAddItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopy.resx">
+      <DependentUpon>frmCopy.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCustomer.resx">
       <DependentUpon>frmCustomer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDocument.resx">
+      <DependentUpon>frmDocument.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNote.resx">
       <DependentUpon>frmNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlantings.resx">
+      <DependentUpon>frmPlantings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -178,8 +240,12 @@
     <EmbeddedResource Include="frmReceipt.resx">
       <DependentUpon>frmReceipt.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -203,11 +269,47 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="HTMLPage1.html" />
+    <Content Include="HTMLPage1.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_attachment_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_attach_file_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_note_add_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_note_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_save_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_save_close_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ic_save_new_black_24dp_1x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\attach.bmp" />
     <Content Include="save.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ckeditor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

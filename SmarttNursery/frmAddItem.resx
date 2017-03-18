@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CurrencyEdit1.CalculatorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ceCost.CalculatorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABEAAAAWCAYAAAAmaHdCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhP1VTBCcJAELwm7MAK7MAOrMBG7MA6BMGPL/34
@@ -128,7 +128,7 @@
         TcTm8WrlUwsNNTcatLiCYiotrvjKn+1zOPcEP9xcvfP4zEwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="CurrencyEdit1.CalculatorButton.Image1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ceCost2.CalculatorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABEAAAAWCAYAAAAmaHdCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhP1VTBCcJAELwm7MAK7MAOrMBG7MA6BMGPL/34
@@ -138,7 +138,7 @@
         TcTm8WrlUwsNNTcatLiCYiotrvjKn+1zOPcEP9xcvfP4zEwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="CurrencyEdit1.CalculatorButton.Image2" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ceCost3.CalculatorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABEAAAAWCAYAAAAmaHdCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhP1VTBCcJAELwm7MAK7MAOrMBG7MA6BMGPL/34
@@ -148,7 +148,7 @@
         TcTm8WrlUwsNNTcatLiCYiotrvjKn+1zOPcEP9xcvfP4zEwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="CurrencyEdit1.CalculatorButton.Image3" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ceCost4.CalculatorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABEAAAAWCAYAAAAmaHdCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhP1VTBCcJAELwm7MAK7MAOrMBG7MA6BMGPL/34

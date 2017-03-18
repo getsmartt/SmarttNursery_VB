@@ -59,5 +59,85 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_attach_file_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_attach_file_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_attachment_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_attachment_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_note_add_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_note_add_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_note_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_note_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_save_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_save_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_save_close_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_save_close_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ic_save_new_black_24dp_1x() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_save_new_black_24dp_1x", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property save() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("save", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace

@@ -7,5 +7,7 @@
 
     Private Sub ButtonAdv1_Click(sender As Object, e As EventArgs) Handles btnReceipt.Click
         frmReciept.Show()
+        Form2.Show()
+        frmCopy.Show()
     End Sub
 End Class

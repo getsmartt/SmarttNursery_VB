@@ -2,7 +2,8 @@
 Imports Syncfusion.Windows.Forms.Tools
 
 Public Class frmReciept
-    Inherits Office2010Form
+    'Inherits Office2010Form
+    Inherits MetroForm
 
     Private Sub grdItems_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles grdItems.CellContentClick
 
@@ -32,5 +33,9 @@ Public Class frmReciept
         Dim frmNotes As Form
         frmNotes = New frmNote
         frmNotes.Show()
+    End Sub
+
+    Private Sub SplitButton1_Click(sender As Object, e As EventArgs) Handles SplitButton1.Click
+        frmDocument.Show()
     End Sub
 End Class
